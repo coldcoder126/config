@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/coldcoder126/config.git
+          search-paths: repos
+          username: 1348390090@qq.com
+          password: 521e7love
+
+server:
+  port: 8888
